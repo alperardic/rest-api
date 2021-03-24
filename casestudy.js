@@ -15,6 +15,7 @@ app.post('/alert' ,(req,res)=> {
       res.send('JSON formatı harici post isteği reddedilmektedir')
 });
 
-app.listen(3000, () => {
+const port = process.env.port || 3000;
+app.listen(port, () => {
    console.log('İsim soyisim json stringfy olarak yazdırıldı') ;
 });
