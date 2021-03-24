@@ -1,0 +1,22 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Alper Ardıç's  BCFM Academy Study Case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperardic/rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alperardic/rest-api/issues"
+  },
+  "homepage": "https://github.com/alperardic/rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
