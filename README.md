@@ -1,2 +1,2 @@
-# case-study-alper
+# rest-api
 Alper Ardıç's  BCFM Academy Study Case
