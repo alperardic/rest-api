@@ -18,9 +18,7 @@
     >Ardından desktop üzerine gelen C:\Users\Alper\Desktop\rest-api uzantısını Command Prompt'ta base olarak göstererek  
     
     ```sh 
-     
-     npm init 
-    
+      npm init 
     ```
    
     ile package.json dosyamı ekledim. 
@@ -32,17 +30,13 @@
    >Ardından build alma işlemini 
    
    ```sh
-   
-   docker build -t alperdocker .
-   
+    docker build -t alperdocker .
    ```
    
     satırı ile tamamladım. Buildini aldığım docker'ı
     
     ```sh
-    
-    docker run -it -p 8888:3000 alperdocker
-    
+     docker run -it -p 8888:3000 alperdocker
     ```
     
     ile çalıştırdım ve casestudy.js dosyamın içerdiği emiri Postman vasıtası ile test ederek API'ımı başarılı bir şekilde çalıştırdığımı farkettim.  
