@@ -19,9 +19,9 @@
   
    Ardından desktop üzerine gelen C:\Users\Alper\Desktop\rest-api uzantısını Command Prompt'ta base olarak göstererek  
     
-    ```sh 
-      npm init 
-    ```
+    ```sh
+node init
+```
    
    ile package.json dosyamı ekledim. 
   
