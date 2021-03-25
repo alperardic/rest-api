@@ -80,7 +80,17 @@
   
       docker run -it -p 8888:3000 alperdocker 
       
-  satırını okuttuğum zaman .js dosyamın içerisinde oluşturduğum komut çalışmaya başlıyor.
+  satırını okutuyorum ve
+  
+  Aynı zamanda docker'ımı çalıştırdıktan sonra 
+  
+     npm install forever -g
+     
+  ve
+  
+    forever start casestudy.js
+    
+  satırlarını kullanarak URL'mi yayına hazır hale getiriyorum.
   
   Bundan sonra oluşturduğum Instances'ımın detaylarından 18.222.181.76 public addresimi alarak ve .js dosyamda komutlandırdığım 3000 portunda çalıştırarak serverimi yayına almış oluyorum. 
   
