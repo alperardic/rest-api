@@ -19,9 +19,9 @@
   
    Ardından desktop üzerine gelen C:\Users\Alper\Desktop\rest-api uzantısını Command Prompt'ta base olarak göstererek  
     
-     ```sh
+     
        node init
-     ```
+     
    
    ile package.json dosyamı ekledim. 
   
@@ -35,19 +35,30 @@
     
    Ardından build alma işlemini 
    
-   ```sh
+   
     docker build -t alperdocker .
-   ```
+   
    
    satırı ile tamamladım. 
     
    Buildini aldığım docker'ı
     
-    ```sh
+    
      docker run -it -p 8888:3000 alperdocker
-    ```
+    
     
    ile çalıştırdım ve casestudy.js dosyamın içerdiği emiri Postman vasıtası ile test ederek API'ımı başarılı bir şekilde çalıştırdığımı farkettim.  
 
 
-AWS EC2 İLE 
+ ## AWS EC2 İLE UBUNTU KULLANARAK HOST ETME
+ 
+   İlk olarak https://aws.amazon.com/ sitesinden üyelik oluşturup gerekli formları doldurduktan sonra EC2 Dashboard'ı altında Instances sekmesinde Launch Instance'a tıklıyorum
+   
+   Ubuntu Server 18.04 LTS (HVM), SSD Volume Type olarak AMI' ımı seçiyorum. Bu seçenek opsiyonel olup Amazon Linux 2 AMI (HVM), SSD Volume Type kullanmakta yeterli olacaktır.
+   
+   Ardından istediğimiz Instance Type'ı seçtikten sonra next butonları vasıtasıyla istediğimiz özelliklerde Instance'ımızı launch etmiş oluyoruz.
+   
+   Sonraki adımda Instances sekmesinden oluşturduğumuzu bulup Connect'e basıp kırmızı ile altı çizilmiş URL'yi kopyalıyoruz.
+   
+   ![aws](https://user-images.githubusercontent.com/77046207/112444255-e5fdf480-8d5e-11eb-9dec-cbbe77c6d182.png)
+
