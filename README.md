@@ -84,7 +84,7 @@
   
   Bundan sonra oluşturduğum Instances'ımın detaylarından 18.222.181.76 public addresimi alarak ve .js dosyamda komutlandırdığım 3000 portunda çalıştırarak serverimi yayına almış oluyorum. 
   
-  http://18.222.181.76:3000/whoami? 
+  http://18.222.181.76:3000/whoami
   
   http://18.222.181.76:3000/alert
        
