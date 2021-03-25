@@ -8,8 +8,10 @@
   'Add webhook' sekmesine tıkladığım zaman 'Payload Url' kısmının altında bir URL girmemi istiyor. 
    
    Bu sırada https://webhook.site/ sitesine girdiğim zaman ana ekranda 'Your unique URL' başlığı altında bir uzantı karşılıyor bizi. O uzantıyı kopyalayıp github içerisindeki 'Payload URL' kısmına yapıştırıyorum. 
-    'Content Type' ımı 'application.json' olarak seçiyorum çünkü case'in bizden istediği format bu. Ardından aşağıda karşımıza gelen 'Send me everything' kutusunu işaretleyerek 'Update Webhook' seçeneğini işaretliyorum. 
-    Bu işlemlerden sonra https://webhook.site/ sitesine girdiğim zaman ana ekranın solunca POST metodu ile alınmış bir webhook görmekteyiz. Bu webhook'un içeriği ise Study Case'imizin reverse API'ı yani webhook'udur.
+    
+   'Content Type' ımı 'application.json' olarak seçiyorum çünkü case'in bizden istediği format bu. Ardından aşağıda karşımıza gelen 'Send me everything' kutusunu işaretleyerek 'Update Webhook' seçeneğini işaretliyorum. 
+   
+   Bu işlemlerden sonra https://webhook.site/ sitesine girdiğim zaman ana ekranın solunca POST metodu ile alınmış bir webhook görmekteyiz. Bu webhook'un içeriği ise Study Case'imizin reverse API'ı yani webhook'udur.
 
 ## DOCKERFİLE İLE BUİLD ALMA İŞLEMİ
 
