@@ -58,7 +58,34 @@
    
    Ardından istediğimiz Instance Type'ı seçtikten sonra next butonları vasıtasıyla istediğimiz özelliklerde Instance'ımızı launch etmiş oluyoruz.
    
+   Launch'a bastığımız zaman şu ekrandan key pair'imize bir ad verip .pem uzantılı dosyayı indiriyoruz. 
+   
+   ![aws2](https://user-images.githubusercontent.com/77046207/112444757-72101c00-8d5f-11eb-8360-669707a219d6.png)
+
    Sonraki adımda Instances sekmesinden oluşturduğumuzu bulup Connect'e basıp kırmızı ile altı çizilmiş URL'yi kopyalıyoruz.
    
    ![aws](https://user-images.githubusercontent.com/77046207/112444255-e5fdf480-8d5e-11eb-9dec-cbbe77c6d182.png)
 
+   Windows kullanıcısı olarak .pem dosyasını kullanamıyoruz bu sebeble PuTTy ve PuTTygen uygulamaları vasıtası ile .pem dosyamızı .ppk'ya dönüştürüyor ve UBUNTU terminalimizi açıyoruz. 
+   
+   ![aws123](https://user-images.githubusercontent.com/77046207/112445239-f793cc00-8d5f-11eb-9586-c41b84ed799f.png)
+
+  Bu UBUNTU terminaline uygulamamı  yazmış olduğum node.js, express.js'i kuruyorum ve öncesinde package.json dosyamı ekliyorum tabiki. Git ve Docker kurulumunu yaptıktan sonra 
+  
+  github hesabımdam 
+        
+       git clone https://github.com/alperardic/rest-api.git 
+       
+  satırıyla birlikte repo'mu tanıtıyorum. Bu işlemlerden sonra 
+  
+      docker run -it -p 8888:3000 alperdocker 
+      
+  satırını okuttuğum zaman .js dosyamın içerisinde oluşturduğum komut çalışmaya başlıyor.
+  
+  Bundan sonra oluşturduğum Instances'ımın detaylarından 18.222.181.76 public addresimi alarak ve .js dosyamda komutlandırdığım 3000 portunda çalıştırarak serverimi yayına almış oluyorum. 
+  
+  http://18.222.181.76:3000/whoami? 
+  
+  http://18.222.181.76:3000/alert
+       
+       
